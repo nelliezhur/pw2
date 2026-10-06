@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdint.h>
+int main() {
+int h;
+uint8_t c;
+float d;
+scanf("%x %hho %f", &h, &c, &d);
+uint16_t checksum = h+(uint8_t)c;
+printf("PACKED_ID: %d\nSTATUS_CODE: %u\nSTATUS_CHAR: %c\nVOLTAGE: %.2f\nCHECKSUM: %d\n", h, c, c, d, checksum);
+return 0;
+}
