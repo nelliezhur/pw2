@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+long double t;
+scanf("%Lf", &t);
+double h = t;
+float c = t;
+printf("FLOAT: %.6f\nDOUBLE: %.6f\nLDOUBLE: %.6Lf\nFLOAT+1: %.6f\nDOUBLE+1: %.6f\nLDOUBLE+1: %.6Lf\n", c, h, h, c+1, h+1, t+1);
+return 0;
+}
