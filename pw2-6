@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdint.h>
+int main() {
+int t;
+scanf("%d", &t);
+uint8_t g = (uint8_t)t;
+printf("ADD: %u\nMUL2: %u\nSQR: %u\n", (unsigned int)(uint8_t)(g+10), (unsigned int)(uint8_t)(g*2), (unsigned int)(uint8_t)(g*g));
+return 0;
+}
