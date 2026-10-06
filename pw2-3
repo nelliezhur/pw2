@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdbool.h>
+int main() {
+int h = 10, c = 010, d = 0x10;
+bool s = 0.1f == 0.1;
+char v = 'A';
+printf("DEC_10: %d\n OCT_10: %d\n HEX_10: %d\n INT_SUFFIX: %lu %lu %lu %lu\n FLOAT_SUFFIX: %lu %lu %lu\n FLOAT_EQ: %d\n CHAR_FORMS: %d %d %d\n CHAR_LIT_VAR_STR: %lu %lu %lu\n", h, c, d, sizeof(10), sizeof(10u), sizeof(10LL), sizeof(10ULL), sizeof(0.1f), sizeof(0.1), sizeof(0.1L), s, 'A', '\x41', '\101', sizeof('A'), sizeof(v), sizeof("A"));
+return 0;
+}
