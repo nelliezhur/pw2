@@ -2,6 +2,6 @@
 int main(void) {
 int h, c, d;
 scanf("%d %x %o", &h, &c, &d);
-printf("UNIT_ID: %d\nUNIT_VERSION: %d\nUNIT_STATUS: %d\nSUM: %d\n", h, c, d, h+>
+printf("UNIT_ID: %d\nUNIT_VERSION: %d\nUNIT_STATUS: %d\nSUM: %d\n", h, c, d, h+c);
 return 0;
 }
